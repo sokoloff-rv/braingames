@@ -1,5 +1,7 @@
 {
     "name": "hexlet/code",
+    "description": "Brains games project",
+    "license": "MIT",
     "type": "project",
     "autoload": {
         "psr-4": {
@@ -11,6 +13,9 @@
             "name": "Роман Соколов",
             "email": "sokoloff.rv@gmail.com"
         }
+    ],
+    "bin": [
+        "bin/brain-games"
     ],
     "require": {}
 }
