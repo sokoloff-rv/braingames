@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+use function cli\line;
+use function cli\prompt;
+
+line("Answer 'yes' if the number is even, otherwise answer 'no'.");
+$countCorrectAnswers = 0;
+
+while ($countCorrectAnswers < 3 && $countCorrectAnswers >= 0) {
+    $number = rand(0, 999);
+
+    $answer = prompt("Question: $number");
+    $isEven = $number % 2 === 0;
+
+    if ($isEven && $answer === 'yes' || !$isEven && $answer === 'no') {
+        line("Correct!");
+        $countCorrectAnswers++;
+    } else {
+        $correctAnswer = $answer === 'yes' ? 'no' : 'yes';
+        line("'$answer' is wrong answer ;(. Correct answer was '$correctAnswer'.\nLet's try again, Bill!");
+        $countCorrectAnswers = -1;
+    }
+}
+
+if ($countCorrectAnswers === 3) {
+    line("Congratulations, $name!");
+}
