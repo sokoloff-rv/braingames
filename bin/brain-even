@@ -3,8 +3,8 @@
 
 require 'vendor/autoload.php';
 
-use function BrainGames\Cli\start;
+use function BrainGames\Cli\startGames;
 use function BrainGames\Cli\playEvenGame;
 
-$name = start();
+$name = startGames();
 playEvenGame($name);

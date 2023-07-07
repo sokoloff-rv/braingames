@@ -3,6 +3,6 @@
 
 require 'vendor/autoload.php';
 
-use function BrainGames\Cli\start;
+use function BrainGames\Cli\startGames;
 
-start();
+startGames();
