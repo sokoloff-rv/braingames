@@ -7,4 +7,4 @@
 [![asciicast](https://asciinema.org/a/HuQrxf1YM4bYtmT0ypPqUhCGj.svg)](https://asciinema.org/a/HuQrxf1YM4bYtmT0ypPqUhCGj)
 
 #### Calc game:
-[![asciicast](https://asciinema.org/a/597200.svg)](https://asciinema.org/a/597200)
+[![asciicast](https://asciinema.org/a/597201.svg)](https://asciinema.org/a/597201)
