@@ -11,10 +11,10 @@ function playGameEven()
 
     $description = "Answer 'yes' if the number is even, otherwise answer 'no'.";
 
-    $questionGenerator = function() {
+    $questionGenerator = function () {
         $number = rand(0, 999);
         $isEven = $number % 2 === 0 ? 'yes' : 'no';
-        
+
         return ['question' => $number, 'rightAnswer' => $isEven];
     };
 

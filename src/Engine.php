@@ -19,7 +19,7 @@ function playGame($name, $description, $questionGenerator)
 
     $countCorrectAnswers = 0;
     do {
-        ['question' => $question, 'rightAnswer' => $rightAnswer] = $questionGenerator();                
+        ['question' => $question, 'rightAnswer' => $rightAnswer] = $questionGenerator();
         $userAnswer = prompt("Question: $question");
 
         if ($userAnswer === $rightAnswer) {

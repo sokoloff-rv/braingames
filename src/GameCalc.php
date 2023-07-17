@@ -11,14 +11,14 @@ function playGameCalc()
 
     $description = "What is the result of the expression?";
 
-    $questionGenerator = function() {
+    $questionGenerator = function () {
         $operandOne = rand(0, 99);
         $operandTwo = rand(0, 99);
         $operatorsList = ['+', '-', '*'];
         $operator = $operatorsList[array_rand($operatorsList)];
         $expression = "$operandOne $operator $operandTwo";
         $result = (string)eval("return $expression;");
-        
+
         return ['question' => $expression, 'rightAnswer' => $result];
     };
 
