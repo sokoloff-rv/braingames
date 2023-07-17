@@ -5,12 +5,12 @@ namespace BrainGames\Games;
 use function cli\line;
 use function cli\prompt;
 
-function playEvenGame($name)
+function playEvenGame()
 {
     line("Welcome to the Brain Game!");
     $name = prompt("May I have your name?");
     line("Hello, $name");
-    
+
     line("Answer 'yes' if the number is even, otherwise answer 'no'.");
     $countCorrectAnswers = 0;
 
