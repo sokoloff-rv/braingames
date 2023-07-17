@@ -11,7 +11,8 @@
             "src/Cli.php",
             "src/Engine.php",
             "src/GameEven.php",
-            "src/GameCalc.php"
+            "src/GameCalc.php",
+            "src/GameGCD.php"
         ]
     },
     "authors": [
