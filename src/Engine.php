@@ -27,6 +27,7 @@ function playGame($name, $description, $questionGenerator)
             $countCorrectAnswers++;
         } else {
             line("'$userAnswer' is wrong answer ;(. Correct answer was '$rightAnswer'.\nLet's try again, $name!");
+            $countCorrectAnswers = 0;
         }
     } while ($countCorrectAnswers < 3 && $countCorrectAnswers > 0);
 

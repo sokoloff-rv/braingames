@@ -14,6 +14,7 @@ function playGameEven()
     $questionGenerator = function() {
         $number = rand(0, 999);
         $isEven = $number % 2 === 0 ? 'yes' : 'no';
+        
         return ['question' => $number, 'rightAnswer' => $isEven];
     };
 

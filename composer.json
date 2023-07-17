@@ -10,7 +10,8 @@
         "files": [
             "src/Cli.php",
             "src/Engine.php",
-            "src/GameEven.php"
+            "src/GameEven.php",
+            "src/GameCalc.php"
         ]
     },
     "authors": [
