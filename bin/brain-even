@@ -3,6 +3,6 @@
 
 require 'vendor/autoload.php';
 
-use function BrainGames\Games\playEvenGame;
+use function BrainGames\GameEven\playGameEven;
 
-playEvenGame($name);
+playGameEven();
