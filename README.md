@@ -1,3 +1,6 @@
+### О проекте
+&laquo;Игры разума&raquo;&nbsp;&mdash; это набор консольных игр, написанных на&nbsp;языке PHP в&nbsp;качестве учебного проекта. Игры предназначены для проверки навыков устного счета и&nbsp;математических способностей.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/sokoloff-rv/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/sokoloff-rv/php-project-lvl1/actions)
 
