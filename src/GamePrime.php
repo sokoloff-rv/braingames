@@ -9,7 +9,7 @@ function playGamePrime()
 {
     $name = greetUser();
 
-    $description = "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
+    $description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
     $questionGenerator = function () {
         $number = rand(0, 999);
