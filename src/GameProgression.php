@@ -29,12 +29,9 @@ function generateProgressionData()
     $increase = rand(1, 10);
     $count = rand(5, 10);
 
-    for ($i = 0; $i < $count; $i++) {
-        if ($i === 0) {
-            $progression[] = $startNumber;
-        } else {
-            $progression[] = $progression[$i - 1] + $increase;
-        }
+    $progression[] = $startNumber;
+    for($i = 1; $i < $count; $i++) {
+        $progression[] = $progression[$i - 1] + $increase;
     }
 
     $randomIndex = rand(0, $count - 1);
