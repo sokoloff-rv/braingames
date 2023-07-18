@@ -16,7 +16,7 @@ function playGameProgression()
         $progressionWithPass = $progressionData[0];
         $pass = $progressionData[1];
 
-        return ['question' => implode(", ", $progressionWithPass), 'rightAnswer' => (string)$pass];
+        return ['question' => implode(" ", $progressionWithPass), 'rightAnswer' => (string)$pass];
     };
 
     playGame($name, $description, $questionGenerator);
