@@ -30,7 +30,7 @@ function generateProgressionData()
     $count = rand(5, 10);
 
     $progression[] = $startNumber;
-    for($i = 1; $i < $count; $i++) {
+    for ($i = 1; $i < $count; $i++) {
         $progression[] = $progression[$i - 1] + $increase;
     }
 
