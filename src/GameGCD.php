@@ -30,5 +30,5 @@ function gcd($a, $b)
         $b = $a % $b;
         $a = $temp;
     }
-    return(string)$a;
+    return (string)$a;
 }
