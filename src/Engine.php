@@ -13,7 +13,7 @@ function greetUser()
     return $name;
 }
 
-function playGame($name, $description, $questionGenerator)
+function playGame(string $name, string $description, callable $questionGenerator)
 {
     line($description);
 

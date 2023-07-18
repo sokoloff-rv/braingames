@@ -21,7 +21,7 @@ function playGamePrime()
     playGame($name, $description, $questionGenerator);
 }
 
-function isPrime($number)
+function isPrime(int $number)
 {
     if ($number < 2) {
         return false;
