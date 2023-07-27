@@ -6,6 +6,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/0344a74abb4a867ac0dc/maintainability)](https://codeclimate.com/github/sokoloff-rv/php-project-lvl1/maintainability)
 
+### Демонстрации мини-игр
+
 #### Игра на определение четного числа:
 [![asciicast](https://asciinema.org/a/597199.svg)](https://asciinema.org/a/597199)
 
