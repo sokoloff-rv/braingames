@@ -8,6 +8,45 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/0344a74abb4a867ac0dc/maintainability)](https://codeclimate.com/github/sokoloff-rv/php-project-lvl1/maintainability)
 
+## Начало работы
+
+Чтобы развернуть проект локально, выполните последовательно несколько действий:
+
+1. Клонируйте репозиторий:
+    
+    ```bash
+    git clone https://github.com/yourusername/braingames.git
+    ```
+    
+2. Перейдите в директорию проекта:
+    
+    ```bash
+    cd braingames
+    ```
+    
+3. Установите зависимости:
+    
+    ```bash
+    make install
+    ```
+    
+4. Установите права на выполнение файлов в директории `bin`:
+    
+    ```bash
+    chmod +x ./bin/*
+    ```
+    
+
+## Запуск мини-игр
+
+Для запуска игр выполните команды:
+
+- `make brain-even` — запуск игры "Проверка на четность".
+- `make brain-calc` — запуск игры "Калькулятор".
+- `make brain-gcd` — запуск игры "Наибольший общий делитель".
+- `make brain-progression` — запуск игры "Арифметическая прогрессия".
+- `make brain-prime` — запуск игры "Простое ли число?".
+
 ## Демонстрации мини-игр
 
 ### Игра на определение четного числа:
