@@ -15,7 +15,7 @@
 1. Клонируйте репозиторий:
     
     ```bash
-    git clone https://github.com/yourusername/braingames.git
+    git clone git clone https://github.com/sokoloff-rv/php-project-lvl1.git braingames
     ```
     
 2. Перейдите в директорию проекта:
