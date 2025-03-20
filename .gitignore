@@ -1,1 +1,5 @@
 /vendor/
+/document_errors/
+/logs/
+/public_html/
+/stats/
